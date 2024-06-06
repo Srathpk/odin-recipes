@@ -1,0 +1,27 @@
+{
+  "editor.formatOnType": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "prettier.singleAttributePerLine": true,
+  "prettier.useTabs": false,
+  "prettier.proseWrap": "always",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": false
+  },
+  "prettier.singleQuote": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 80,
+  "prettier.bracketSameLine": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.preferences.importModuleSpecifier": "non-relative"
+}

@@ -1,0 +1,40 @@
+* {
+  font-family: Impact, "Arial Narrow Bold", sans-serif;
+}
+
+.goofyodin,
+.foodimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*  width: 300px;*/
+  width: 10em;
+  height: auto;
+}
+
+/* .foodimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  width: 10em;
+  height: auto;
+}  */
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  font-display: ;
+}
+
+.myrecps {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font-size: 1.5em;
+  text-shadow: 1cap;
+}
