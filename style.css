@@ -25,25 +25,26 @@ a:visited {
 
 h1 {
   text-align: center;
-  font-size: 2em;
+  /* font-size: 20; */
 }
 
 h2 {
   text-align: center;
-  font-size: 1.5em;
+  /* font-size: 18; */
 }
 
 h3 {
   text-align: center;
-  font-size: 1.2em;
+  /* font-size: 17; */
   padding-top: 2em;
 }
 
-p {
-  font-size: 1.5em;
+p,
+.steps {
+  font-size: 20px;
   text-align: justify;
-  margin-left: 20em;
-  margin-right: 20em;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .myrecps {
   text-align: center;
@@ -54,12 +55,14 @@ p {
 
 li {
   padding: 0.5em;
-  font-size: 1.5em;
-  text-shadow: 0.2em;
+  /* font-size: 1.5em; */
+  text-shadow: 0.8em;
   text-decoration: none;
 }
 
 .ingr {
+  font-size: 20px;
   text-align: left;
-  margin-left: 20em;
+  margin-left: 20%;
+  margin-right: 20%;
 }
