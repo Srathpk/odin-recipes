@@ -28,6 +28,10 @@ h3 {
   text-align: center;
 }
 
+h2 {
+  display: block;
+}
+
 h3 {
   padding-top: 2em;
 }
@@ -54,8 +58,23 @@ li {
 }
 
 .ingr {
+  display: inline-block;
   font-size: 20px;
   text-align: left;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin: 0px;
+  /* margin-left: 20%;
+  margin-right: 20%; */
+}
+
+.ingrimg {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.ingrimgs {
+  /* display: inline-block; */
+  /* margin: auto; */
+  width: 30%;
+  height: auto;
 }
