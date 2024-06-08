@@ -2,7 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  /* picked this up in a tutorial, I believe it applies the bounding box overriding the default content box */
+  /* picked this up in a tutorial, it applies the border-box to all the elements. Works like a reset */
 }
 
 body {
