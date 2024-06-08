@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  /* picked this up in a tutorial, I believe it applies the bounding box overriding the default content box */
 }
 
 body {
@@ -11,6 +12,7 @@ body {
 
 .goofyodin,
 .foodimg {
+  /* Applying image dimensions for the index (goofy) "logo img" and the food (foodimg) displaying image of each recipe */
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -19,36 +21,34 @@ body {
 }
 
 a:visited {
+  /* removing the underline of links and applying a color so it doesn't show as purple when visited - don't know if this a good practice */
   text-decoration: none;
   color: blue;
+}
+
+.myrecps {
+  /* index page list of recipes */
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
 h2,
 h3 {
   text-align: center;
-}
-
-h2 {
   display: block;
+  padding-top: 50px;
 }
 
-h3 {
-  padding-top: 2em;
-}
-
-p,
+.descr,
 .steps {
+  /* formatting  description and  steps of the recipe. Instead of .descr class I used <p> before the <div> lessons*/
   font-size: 20px;
   text-align: justify;
   margin-left: 10%;
   margin-right: 10%;
-}
-.myrecps {
-  text-align: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }
 
 li {
@@ -56,6 +56,20 @@ li {
   /* font-size: 1.5em; */
   text-shadow: 0.8em;
   text-decoration: none;
+}
+
+/* this below is confusing
+.ingrimgs is the class of the image
+.ingrimg is the class of the container of the image
+.ingr is the ul of the ingredients
+.allingr is the container for all these classes
+*/
+
+.allingr {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 800px;
 }
 
 .ingr {
@@ -71,7 +85,6 @@ li {
   display: inline-block;
   margin: auto;
   padding: 0px;
-  max-width: 800px;
 }
 
 .ingrimgs {
