@@ -45,10 +45,11 @@ h3 {
 .descr,
 .steps {
   /* formatting  description and  steps of the recipe. Instead of .descr class I used <p> before the <div> lessons*/
+  display: block;
   font-size: 20px;
   text-align: justify;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 li {
