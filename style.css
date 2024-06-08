@@ -83,8 +83,9 @@ li {
 
 .ingrimg {
   display: inline-block;
-  margin: auto;
-  padding: 0px;
+  /* margin-left: auto;
+  margin-right: auto;*/
+  padding-left: 10%;
 }
 
 .ingrimgs {
